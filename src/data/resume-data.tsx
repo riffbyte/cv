@@ -12,7 +12,7 @@ export const RESUME_DATA = {
   about:
     "Full Stack Engineer with great eye for design and attention to detail",
   summary:
-    "During 7 years of my experience as a Full Stack Engineer, I have developed a multitude of products, both solo and in a team. I'm an effective leader and a good mentor, with strong presentational skills. My main stack is TypeScript, React.js, Next.js and Node.js",
+    "During 7 years of my experience as a Full Stack Engineer, I have developed a multitude of products, both solo and in a team. I'm an effective leader and a good mentor, with strong presentational skills. Having a strong product-oriented mindset allows me to provide valuable feedback for designers and product owners. My main stack is TypeScript, React.js, Next.js and Node.js",
   avatarUrl: "https://avatars.githubusercontent.com/u/1641218?v=4",
   personalWebsiteUrl: "https://riffbyte.dev",
   contact: {
@@ -56,7 +56,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2024",
       description:
-        "Led the development of new generation of Prezly CMS Themes, accompanying open-source libraries and the prezly.com website. Implemented new features on the main app, introduced design systems to the app and the website, onboarded and mentored junior developers. Technologies: React, Next.js, TypeScript, Contentful, PHP",
+        "Led the development of new generation of Prezly CMS Themes, accompanying open-source libraries and the prezly.com website. Implemented new features on the main app, introduced design systems to the app and the website, onboarded and mentored junior developers, composed project pitches and conducted tech stack research and experiments. Technologies: React, Next.js, TypeScript, Contentful, PHP",
     },
     {
       company: "Anyway Labs",
@@ -67,7 +67,7 @@ export const RESUME_DATA = {
       start: "2017",
       end: "2021",
       description:
-        "Developed hybrid mobile apps, web applications and REST APIs for various clients. Technologies: jQuery, Cordova, Ionic, React, TypeScript, Koa, Python",
+        "Developed hybrid mobile apps, web applications and REST APIs for various clients. Made huge refactor/rewrite work on old applications, introduced new technologies to the stack. Onboarded and mentored junior developers. Technologies: jQuery, Cordova, Ionic, React, TypeScript, Koa, Python",
     },
   ],
   skills: [
