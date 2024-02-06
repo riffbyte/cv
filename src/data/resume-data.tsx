@@ -26,7 +26,7 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/oleg-semyonov-609176250/",
+        url: "https://www.linkedin.com/in/riffbyte/",
         icon: LinkedInIcon,
       },
       {
