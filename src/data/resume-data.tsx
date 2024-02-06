@@ -198,16 +198,16 @@ export const RESUME_DATA = {
         "Supporting API that connects FlightVector backend systems with the frontend applications.",
       // logo: JarockiMeLogo,
     },
-    {
-      title: "FlightVector Transport App",
-      techStack: ["Frontend Developer", "Handlebars", "Cordova"],
-      description:
-        "Hybrid mobile app for private medical organization clients with GMaps integration for tracking requests",
-      // logo: JarockiMeLogo,
-      link: {
-        label: "Google Play",
-        href: "https://play.google.com/store/apps/details?id=com.softtechinc.flightcall",
-      },
-    },
+    // {
+    //   title: "FlightVector Transport App",
+    //   techStack: ["Frontend Developer", "Handlebars", "Cordova"],
+    //   description:
+    //     "Hybrid mobile app for private medical organization clients with GMaps integration for tracking requests",
+    //   // logo: JarockiMeLogo,
+    //   link: {
+    //     label: "Google Play",
+    //     href: "https://play.google.com/store/apps/details?id=com.softtechinc.flightcall",
+    //   },
+    // },
   ],
 } as const;
