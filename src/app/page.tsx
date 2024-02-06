@@ -34,45 +34,53 @@ export default function Page() {
                 {RESUME_DATA.location}
               </a>
             </p>
-            <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
+            <ul className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
               {RESUME_DATA.contact.email ? (
-                <Button
-                  className="size-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a href={`mailto:${RESUME_DATA.contact.email}`}>
-                    <MailIcon className="size-4" />
-                  </a>
-                </Button>
+                <li>
+                  <Button
+                    className="size-8"
+                    variant="outline"
+                    size="icon"
+                    asChild
+                  >
+                    <a href={`mailto:${RESUME_DATA.contact.email}`}>
+                      <MailIcon className="size-4" />
+                      <span className="sr-only">Email</span>
+                    </a>
+                  </Button>
+                </li>
               ) : null}
               {RESUME_DATA.contact.tel ? (
-                <Button
-                  className="size-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                    <PhoneIcon className="size-4" />
-                  </a>
-                </Button>
+                <li>
+                  <Button
+                    className="size-8"
+                    variant="outline"
+                    size="icon"
+                    asChild
+                  >
+                    <a href={`tel:${RESUME_DATA.contact.tel}`}>
+                      <PhoneIcon className="size-4" />
+                      <span className="sr-only">Phone</span>
+                    </a>
+                  </Button>
+                </li>
               ) : null}
               {RESUME_DATA.contact.social.map((social) => (
-                <Button
-                  key={social.name}
-                  className="size-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a href={social.url}>
-                    <social.icon className="size-4" />
-                  </a>
-                </Button>
+                <li key={social.name}>
+                  <Button
+                    className="size-8"
+                    variant="outline"
+                    size="icon"
+                    asChild
+                  >
+                    <a href={social.url}>
+                      <social.icon className="size-4" />
+                      <span className="sr-only">{social.name}</span>
+                    </a>
+                  </Button>
+                </li>
               ))}
-            </div>
+            </ul>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
               {RESUME_DATA.contact.email ? (
                 <a href={`mailto:${RESUME_DATA.contact.email}`}>
