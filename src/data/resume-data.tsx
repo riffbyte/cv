@@ -10,9 +10,9 @@ export const RESUME_DATA = {
   location: "Tbilisi, Georgia, CET+3",
   locationLink: "https://www.google.com/maps/place/Tbilisi",
   about:
-    "Full Stack Engineer with great eye for design and attention to detail",
+    "Frontend Developer with great eye for design and attention to detail",
   summary:
-    "During 7 years of my experience as a Full Stack Engineer, I have developed a multitude of products, both solo and in a team. I'm an effective leader and a good mentor, with strong presentational skills. Having a strong product-oriented mindset allows me to provide valuable feedback for designers and product owners. My main stack is TypeScript, React.js, Next.js and Node.js",
+    "During 7 years of my experience as a Frontend Developer, I have developed a multitude of products, both solo and in a team. I'm an effective leader and a good mentor, with strong presentational skills. Having a strong product-oriented mindset allows me to provide valuable feedback for designers and product owners. My main stack is TypeScript, React.js, Next.js and Node.js",
   avatarUrl: "https://avatars.githubusercontent.com/u/1641218?v=4",
   personalWebsiteUrl: "https://riffbyte.dev",
   contact: {
@@ -51,12 +51,13 @@ export const RESUME_DATA = {
       company: "Prezly",
       link: "https://prezly.com",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      title: "Frontend Developer → Lead Frontend Developer",
       // logo: ParabolLogo,
       start: "2021",
       end: "2024",
       description:
-        "Led the development of new generation of Prezly CMS Themes, accompanying open-source libraries and the prezly.com website. Implemented new features on the main app, introduced design systems to the app and the website, onboarded and mentored junior developers, composed project pitches and conducted tech stack research and experiments. Technologies: React, Next.js, TypeScript, Contentful, PHP",
+        "Led the development of new generation of Prezly CMS Themes, accompanying open-source libraries and the prezly.com website. Implemented new features on the main app, introduced design systems to the app and the website, onboarded and mentored junior developers, composed project pitches and conducted tech stack research and experiments.",
+      techStack: ["React", "Next.js", "Contentful", "TypeScript", "React Query", "PHP", "Tailwind", "CSS Modules"]
     },
     {
       company: "Anyway Labs",
@@ -67,20 +68,29 @@ export const RESUME_DATA = {
       start: "2017",
       end: "2021",
       description:
-        "Developed hybrid mobile apps, web applications and REST APIs for various clients. Made huge refactor/rewrite work on old applications, introduced new technologies to the stack. Onboarded and mentored junior developers. Technologies: jQuery, Cordova, Ionic, React, TypeScript, Koa, Python",
+        "Developed hybrid mobile apps, web applications and REST APIs for various clients. Made huge refactor/rewrite work on old applications, introduced new technologies to the stack. Onboarded and mentored junior developers.",
+      techStack: ["jQuery", "Cordova", "Ionic", "React", "Redux", "TypeScript", "Koa", "Python"]
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js",
+    "React",
+    "Redux",
+    "Next.js",
     "Node.js",
-    "CSS/Tailwind",
+    "Tailwind",
+    "CSS Modules",
+    "GraphQL",
+    "Contentful",
+    "Express.js",
+    "HTML",
+    "CSS"
   ],
   projects: [
     {
       title: "Prezly Analytics package",
-      techStack: ["Lead Developer", "TypeScript", "Next.js", "Open Source"],
+      techStack: ["TypeScript", "Next.js", "Open Source"],
       description:
         "A rewrite of Prezly's old Analytics library, utilizing Segment's analytics-next package. It is used by Prezly Themes running on Next.js",
       // logo: ConsultlyLogo,
@@ -92,9 +102,9 @@ export const RESUME_DATA = {
     {
       title: "Bea Prezly Theme",
       techStack: [
-        "Lead Full Stack Developer",
         "TypeScript",
         "Next.js",
+        "CSS Modules",
         "Open Source",
       ],
       description:
@@ -118,7 +128,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Prezly Theme Kit",
-      techStack: ["Lead Developer", "TypeScript", "Next.js", "Open Source"],
+      techStack: ["TypeScript", "Next.js", "Open Source"],
       description:
         "Data layer and utility library for developing Prezly themes with NextJS and TypeScript.",
       // logo: ConsultlyLogo,
@@ -130,7 +140,6 @@ export const RESUME_DATA = {
     {
       title: "Prezly Privacy Portal",
       techStack: [
-        "Lead Full Stack Developer",
         "TypeScript",
         "Next.js",
         "Tailwind",
@@ -146,7 +155,6 @@ export const RESUME_DATA = {
     {
       title: "Prezly Marketing Website",
       techStack: [
-        "Lead Full Stack Developer",
         "TypeScript",
         "Next.js",
         "Contentful",
@@ -161,7 +169,7 @@ export const RESUME_DATA = {
     },
     {
       title: "RiffByte.dev",
-      techStack: ["Side Project", "Next.js", "Tailwind", "Contentful"],
+      techStack: ["Next.js", "Tailwind"],
       description: "My personal portfolio website.",
       // logo: JarockiMeLogo,
       link: {
@@ -171,7 +179,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Telegram Web",
-      techStack: ["Lead Frontend Developer", "TypeScript", "Contest"],
+      techStack: ["TypeScript", "Contest"],
       description:
         "I was a core member of the team that won the Telegram JavaScript contest. The result of our work later became the official Telegram Web Client.",
       // logo: JarockiMeLogo,
@@ -182,7 +190,7 @@ export const RESUME_DATA = {
     },
     {
       title: "FlightVector Crew App",
-      techStack: ["Lead Frontend Developer", "Ionic", "React.js", "TypeScript"],
+      techStack: ["Ionic", "React", "TypeScript"],
       description:
         "A hybrid mobile app for crew members of private emergency services with GMaps integration for route navigation, duty dashboards and more.",
       // logo: JarockiMeLogo,
@@ -193,7 +201,7 @@ export const RESUME_DATA = {
     },
     {
       title: "FlightCall API",
-      techStack: ["Backend Developer", "Koa/Express", "PostgreSQL"],
+      techStack: ["Koa/Express", "PostgreSQL"],
       description:
         "Supporting API that connects FlightVector backend systems with the frontend applications.",
       // logo: JarockiMeLogo,
