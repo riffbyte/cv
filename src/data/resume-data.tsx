@@ -7,7 +7,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Oleg Semyonov",
   initials: "OS",
-  location: "Tbilisi, Georgia, CET+3",
+  location: "Tbilisi, Georgia, CET+2",
   locationLink: "https://www.google.com/maps/place/Tbilisi",
   about:
     "Frontend Developer with great eye for design and attention to detail",
