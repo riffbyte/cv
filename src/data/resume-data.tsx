@@ -10,9 +10,9 @@ export const RESUME_DATA = {
   location: "Tbilisi, Georgia, UTC+4",
   locationLink: "https://www.google.com/maps/place/Tbilisi",
   about:
-    "Frontend Developer with great eye for design and attention to detail",
+    "4X Full-Stack Developer with great eye for design and attention to detail",
   summary:
-    `During 8 years of my experience as a Frontend Engineer, I have developed a multitude of products and features, both solo and in a team.\n
+    `During 8 years of my experience as a Senior Development Engineer, I have developed a multitude of products and features, both solo and in a team.\n
     I'm an effective leader and a good mentor, with strong presentational skills. Having a strong product-oriented mindset allows me to provide valuable feedback for designers and product owners, and deliver complete features and improvements without designer input.\n
     I've introduced design systems and component libraries to projects I worked on, closely collaborating with Designers and Product Managers. \n
     My long experience in full-stack feature delivery allows me to effectively decompose big projects, manage workload across the team and consistently hit the delivery estimates, with transparent reporting and feedback. I prefer rapid prototyping and short iterations when working on a project, allowing to shorten the feedback loop and deliver user-facing features faster.\n
