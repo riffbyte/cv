@@ -7,12 +7,16 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Oleg Semyonov",
   initials: "OS",
-  location: "Tbilisi, Georgia, CET+2",
+  location: "Tbilisi, Georgia, UTC+4",
   locationLink: "https://www.google.com/maps/place/Tbilisi",
   about:
     "Frontend Developer with great eye for design and attention to detail",
   summary:
-    "During 7 years of my experience as a Frontend Developer, I have developed a multitude of products, both solo and in a team. I'm an effective leader and a good mentor, with strong presentational skills. Having a strong product-oriented mindset allows me to provide valuable feedback for designers and product owners. My main stack is TypeScript, React.js, Next.js and Node.js",
+    `During 8 years of my experience as a Frontend Engineer, I have developed a multitude of products and features, both solo and in a team.\n
+    I'm an effective leader and a good mentor, with strong presentational skills. Having a strong product-oriented mindset allows me to provide valuable feedback for designers and product owners, and deliver complete features and improvements without designer input.\n
+    I've introduced design systems and component libraries to projects I worked on, closely collaborating with Designers and Product Managers. \n
+    My long experience in full-stack feature delivery allows me to effectively decompose big projects, manage workload across the team and consistently hit the delivery estimates, with transparent reporting and feedback. I prefer rapid prototyping and short iterations when working on a project, allowing to shorten the feedback loop and deliver user-facing features faster.\n
+    My main stack is TypeScript, React.js, Next.js and Node.js, with some experience in back-end development in Ruby, PHP and Python.`,
   avatarUrl: "https://avatars.githubusercontent.com/u/1641218?v=4",
   personalWebsiteUrl: "https://riffbyte.dev",
   contact: {
@@ -48,6 +52,18 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Taxdome",
+      link: "https://taxdome.com",
+      badges: ["Remote"],
+      title: "Senior Frontend Developer",
+      // logo: ParabolLogo,
+      start: "2024",
+      end: "present",
+      description:
+        "Led the delivery on a couple of projects, helped introduce frontend component tests with Playwright CT, hosted learning sessions for QA Engineers, completed full-stack projects solo (sometimes without designer input), participated in several tech designs, both as a reviewer and author. Conducted planning and estimation on many projects. Worked in collaboration with other teams, facilitating many tech and process discussions. Contributed components to the application Design System. Conducted several engineering interviews for Senior Engineering positions.",
+      techStack: ["React", "TypeScript", "Tanstack Query", "Tanstack Table", "CSS Modules", "Playwright", "Ruby"]
+    },
+    {
       company: "Prezly",
       link: "https://prezly.com",
       badges: ["Remote"],
@@ -57,7 +73,7 @@ export const RESUME_DATA = {
       end: "2024",
       description:
         "Led the development of new generation of Prezly CMS Themes, accompanying open-source libraries and the prezly.com website. Implemented new features on the main app, introduced design systems to the app and the website, onboarded and mentored junior developers, composed project pitches and conducted tech stack research and experiments.",
-      techStack: ["React", "Next.js", "Contentful", "TypeScript", "React Query", "PHP", "Tailwind", "CSS Modules"]
+      techStack: ["React", "Next.js", "Contentful", "TypeScript", "Tanstack Query", "PHP", "Tailwind", "CSS Modules", "Playwright"]
     },
     {
       company: "Anyway Labs",
