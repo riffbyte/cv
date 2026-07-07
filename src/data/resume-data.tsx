@@ -16,6 +16,7 @@ export const RESUME_DATA = {
     I'm an effective leader and a good mentor, with strong presentational skills. Having a strong product-oriented mindset allows me to provide valuable feedback for designers and product owners, and deliver complete features and improvements without designer input.\n
     I've introduced design systems and component libraries to projects I worked on, closely collaborating with Designers and Product Managers. \n
     My long experience in full-stack feature delivery allows me to effectively decompose big projects, manage workload across the team and consistently hit the delivery estimates, with transparent reporting and feedback. I prefer rapid prototyping and short iterations when working on a project, allowing to shorten the feedback loop and deliver user-facing features faster.\n
+    I've successfully adopter AI-driven development to my workflow, using Claude Code and Cursor to write code and generate documentation.\n
     My main stack is TypeScript, React.js, Next.js and Node.js, with some experience in back-end development in Ruby, PHP and Python.`,
   avatarUrl: "https://avatars.githubusercontent.com/u/1641218?v=4",
   personalWebsiteUrl: "https://riffbyte.dev",
@@ -55,13 +56,15 @@ export const RESUME_DATA = {
       company: "Taxdome",
       link: "https://taxdome.com",
       badges: ["Remote"],
-      title: "Senior Frontend Developer",
+      title: "Senior Frontend Developer → Tech Lead",
       // logo: ParabolLogo,
       start: "2024",
       end: "present",
       description:
-        "Led the delivery on a couple of projects, helped introduce frontend component tests with Playwright CT, hosted learning sessions for QA Engineers, completed full-stack projects solo (sometimes without designer input), participated in several tech designs, both as a reviewer and author. Conducted planning and estimation on many projects. Worked in collaboration with other teams, facilitating many tech and process discussions. Contributed components to the application Design System. Conducted several engineering interviews for Senior Engineering positions.",
-      techStack: ["React", "TypeScript", "Tanstack Query", "Tanstack Table", "CSS Modules", "Playwright", "Ruby"]
+        `Led the end-to-end delivery on many projects. Introduced a refined delivery process for the company, packing the whole quarter planning into one month timeline. As a tech lead, reduced the sprint rollover rate from 45% to 15% in one month.\n
+        Helped introducing frontend component tests with Playwright CT, hosted learning sessions for QA Engineers. Contributed components to the application Design System.\n
+        Participated in several tech designs, both as a reviewer and author. Worked in collaboration with other teams, facilitating many tech and process discussions. Conducted several engineering interviews for Senior Engineering positions.`,
+      techStack: ["React", "TypeScript", "Tanstack Query", "Tanstack Table", "CSS Modules", "Playwright", "Ruby", "Claude Code"]
     },
     {
       company: "Prezly",

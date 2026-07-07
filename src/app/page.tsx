@@ -140,7 +140,7 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {work.description}
+                  <p className="whitespace-pre-line">{work.description}</p>
 
                   <div className="mt-2 flex gap-x-1">
                     {work.techStack.map((technology) => (
